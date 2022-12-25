@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     font-family: "Cormorant Garamond";
+    background-color: #8B5E3C;
 }
 
 h1 {
@@ -13,4 +14,17 @@ li {
     font-size:24px;
     line-height:2;
     letter-spacing: 1px;
+}
+
+.smaller {
+    width:400px;
+    height: auto;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff3e0;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
 }
