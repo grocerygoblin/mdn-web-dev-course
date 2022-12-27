@@ -8,3 +8,5 @@ myImage.onclick = () => {
         myImage.setAttribute("src", "web-projects\solemn-pride\images\cross.png");
     }
 };
+
+//test
