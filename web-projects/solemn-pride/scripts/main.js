@@ -1,10 +1,10 @@
 const myImage = document.querySelector("img");
 
-myImage.onClick = () => {
-    const mySrc = myImage.getAttribute("src");
-    if (mySrc === "D:\code\mdn\mdn-web-dev-course\web-projects\solemn-pride\images\cross.png") {
-        myImage.setAttribute("src", "D:\code\mdn\mdn-web-dev-course\web-projects\solemn-pride\images\heart.png");
-    } else {
-        myImage.setAttribute("src", "D:\code\mdn\mdn-web-dev-course\web-projects\solemn-pride\images\cross.png");
-    }
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/cross.png") {
+    myImage.setAttribute("src", "images/heart.png");
+  } else {
+    myImage.setAttribute("src", "images/cross.png");
+  }
 };
