@@ -14,6 +14,12 @@ let myButton = document.querySelector("button");
 
 function setUserName() {
     const myName = prompt("Please enter your name.");
+    if (!myName) {
+        setUserName();
+    } else {
+        localStorage.setItem ("name", myName);
+        myHeading.textContent = `God loves you, $(myName)`;
+    }
     localStorage.setItem("name", myName);
     myHeading.textContent = `God loves you, ${myName}`;
 } //set username prompt
