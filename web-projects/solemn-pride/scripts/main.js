@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "file:///C:/code/mdn/mdn-web-dev-course/web-projects/solemn-pride/images/cross.png") {
+    if (mySrc === "images/cross.png") {
         myImage.setAttribute("src", "images/heart.png");
     } else {
-        myImage.setAttribute("src", "file:///C:/code/mdn/mdn-web-dev-course/web-projects/solemn-pride/images/cross.png");
+        myImage.setAttribute("src", "images/cross.png");
     }
 }; //toggles images of cross and sacred heart back and forth on click
 
