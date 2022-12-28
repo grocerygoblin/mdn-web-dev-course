@@ -34,3 +34,6 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = () => {
     setUserName();
 }; //runs setUserName on button click
+
+
+//test
